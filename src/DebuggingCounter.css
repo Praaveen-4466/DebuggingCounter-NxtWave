@@ -1,0 +1,42 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-container {
+  height: 50vh;
+  margin-top: 50px;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 15px;
+}
+
+.heading {
+  margin-left: 25px;
+}
+
+.para {
+  color: black;
+  font-family: "bree-serif";
+  margin-left: 65px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.increase {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.decrease {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
